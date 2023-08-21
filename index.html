@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="logonetflixx.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <select class="me-2 nav-select" name="" id="">
+                            <option value="">Türkçe</option>
+                            <option value="">İngilizce</option>
+                        </select>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-danger" type="submit"><a href="login.html">Oturum Aç</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar Bitiş -->
+        <!-- Header başlangıç -->
+        <header class="header-content text-white">
+            <div class="row text-center align-items-center justify-content-center ">
+                <div class="col-9">
+                    <h1>Herkes burada!</h1>
+                    <h4>Favori oyuncunuz, en yakın arkadaşınız, karşı komşunuz. Tabii filmin, dizinin ve belgeselin
+                        âlâsı da.
+                    </h4>
+                    <div class="custom-container">
+                        <p class="text-center">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak
+                            için
+                            tek yapmanız gereken e-posta adresinizi girmek.</p>
+                    </div>
+                    <div class="container col-md-7 mb-3 d-flex">
+                        <div class="form-floating flex-grow-1 me-2">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="e-posta">
+                            <label for="floatingInput">E-posta adresi</label>
+                        </div>
+                        <button type="button" class="btn btn-danger btn-lg"><a href="login.html">Başlayın</a><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- Header Bitiş -->
+    <div class="section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 coltext-white order-md-1 order-1">
+                    <h1>Televizyonunuzda izleyin</h1>
+                    <p>Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında
+                        seyredin.</p>
+                </div>
+                <div class="col-md-6 order-md-2 order-2">
+                    <img src="resim1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="full-width-hr">
+        </hr>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-3 order-4">
+                    <img src="resim2.jpg" alt="">
+                </div>
+                <div class="col-md-6 coltext-white order-md-3 order-3">
+                    <h1>Çevrimdışı izlemek için içerikleri indirin</h1>
+                    <p>En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="full-width-hr">
+        </hr>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 coltext-white order-md-1 order-1">
+                    <h1>İstediğiniz her yerde izleyin</h1>
+                    <p>Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.</p>
+                </div>
+                <div class="col-md-6 order-md-2 order-2">
+                    <img src="resim3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="full-width-hr">
+        </hr>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-3 order-4">
+                    <img src="resim4.png" alt="">
+                </div>
+                <div class="col-md-6 coltext-white order-md-3 order-3">
+                    <h1>Çocuklarınız için profiller oluşturun</h1>
+                    <p>Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir
+                        alanda
+                        en sevdikleri karakterlerle maceralara atılabilir.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="full-width-hr">
+        </hr>
+    </div>
+
+    <div class="container-sss">
+        <div class="sss text-center">
+            <h1>Sıkça Sorulan Sorular</h1>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h3>Netflix nedir?</h3>
+                    </button>
+                </div>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler,
+                            belgeseller
+                            ve daha fazlasını içeren geniş bir arşiv sunan bir streaming hizmetidir.<br><br>Tek bir
+                            reklam olmadan, istediğiniz kadar, istediğiniz zaman izleyebilirsiniz hepsi aylık düşük
+                            bir
+                            ücret karşılığında. Her zaman keşfedilecek yeni bir şeyler var, üstelik her hafta yeni
+                            diziler ve filmler ekleniyor!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h3>Netflix'in maliyeti nedir?</h3>
+                    </button>
+                </div>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya
+                            yayın
+                            cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 63,99 TL ile 130,99 TL
+                            arasında değişmektedir. Ekstra maliyet yok, sözleşme yok.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h3>Nereden izleyebilirim?</h3>
+                    </button>
+                </div>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda netflix.com adresinden
+                            veya
+                            akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil
+                            Netflix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için
+                            Netflix hesabınızla oturum açın.<br><br>Favori içeriklerinizi iOS, Android veya Windows
+                            10
+                            uygulamasıyla da indirebilirsiniz. Seyahatteyken ve internet bağlantısı olmadan izlemek
+                            için
+                            indirilenleri kullanın. Netflix'i her yere beraberinizde götürün.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <h3>Nasıl iptal ederim?</h3>
+                    </button>
+                </div>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi
+                            olarak
+                            iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz
+                            zaman başlatın veya durdurun.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <h3>Netflix'te ne izleyebilirim?</h3>
+                    </button>
+                </div>
+                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix
+                            orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir.
+                            İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        <h3>Netflix çocuklar için uygun mudur?</h3>
+                    </button>
+                </div>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Üyeliğinize dâhil olan Netflix Çocuk deneyimi, çocukların ailece izlenebilecek dizi ve
+                            filmleri kendilerine özel bir alanda izlemelerini sağlarken kontrolü ebeveynlere
+                            verir.<br><br>Çocuk profillerinde bulunan PIN korumalı ebeveyn kontrolleri sayesinde,
+                            çocukların izleyebileceği içeriklerin yetişkinlik düzeylerini kısıtlayabilir ve onların
+                            görmesini istemediğiniz belirli içerikleri engelleyebilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="abone">
+        <div class="yazi text-center">
+            <p>İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken <br>e-posta
+                adresinizi girmek.</p>
+        </div>
+        <div class="container col-md-7 mb-3">
+            <div class="form-floating flex-grow-1 me-2">
+                <input type="email" class="form-control" id="floatingInput" placeholder="e-posta">
+                <label for="floatingInput">E-posta adresi</label>
+            </div>
+            <button type="button" class="btn btn-danger btn-lg"><a href="login.html">Başlayın</a><svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="full-width-hr mt-4"></div>
+
+    <div class="footer">
+        <p>Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın</p>
+        <div class="cutom-row">
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="">SSS</a></li>
+                    <li><a href="">Medya Merkezi</a></li>
+                    <li><a href="">Hediye Kartı Kullan</a></li>
+                    <li><a href="">Gizlilik</a></li>
+                    <li><a href="">Bize Ulaşın</a></li>
+                    <li><a href="">Sadece Netflix'te</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="">Yardım Merkezi</a></li>
+                    <li><a href="">Yatırımcı İlişkileri</a></li>
+                    <li><a href="">İzleme Yolları</a></li>
+                    <li><a href="">Çerez Tercihleri</a></li>
+                    <li><a href="">Hız Testi</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="">Hesap</a></li>
+                    <li><a href="">İş İmkanları</a></li>
+                    <li><a href="">Kullanım Koşulları</a></li>
+                    <li><a href="">Kurumsal Bilgiler</a></li>
+                    <li><a href="">Yasal Hükümler</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="select pt-4">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Türkçe</option>
+                <option value="1">İngilizce</option>
+            </select>
+        </div>
+        <div class="footer-text pt-2 pb-3">
+            <p>Netflix Türkiye</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
